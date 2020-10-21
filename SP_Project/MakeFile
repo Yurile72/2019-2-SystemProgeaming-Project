@@ -1,0 +1,12 @@
+main : main.o prof.o assert.o student.h
+        gcc -o main main.o prof.o assert.o
+main.o : main.c
+        gcc -g -c main.c
+prof.o : prof.c
+        gcc -g -c prof.c
+student.o : student.c
+        gcc -g -c student.c
+assert.o : assert.c
+        gcc -g -c assert.c
+clean : 
+        rm -rf main *.o *.gch
