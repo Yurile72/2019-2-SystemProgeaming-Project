@@ -1,6 +1,10 @@
-# 2019년 2학기 시스템프로그래밍 프로젝트
-대학관리 시스템 프로젝트
+# 2019 fall System Progeaming Course Project
+Colleage Managemetn System
 
-주어진 기능을 반드시 실행시키기 위해 
-코드를  <b>매 우 더 럽 게</b>  작성함.
+## Using
+- c
+- make
+
+These code very spagetti 
+Because we must be realize it 
 
